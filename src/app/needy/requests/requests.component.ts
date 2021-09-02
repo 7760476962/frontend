@@ -35,6 +35,6 @@ export class RequestsComponent  {
    }
 
    back(){
-    this.route.navigate(['/nav']);
+    this.route.navigate(['/main']);
   }
   }

@@ -35,7 +35,7 @@ closeAlert(){
 }
 
 back(){
-  this.route.navigate(['/nav']);
+  this.route.navigate(['/main']);
 }
   
 }

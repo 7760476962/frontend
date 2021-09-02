@@ -24,7 +24,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBarModule} from '@angular/material/snack-bar';
 import { MatCardModule } from '@angular/material/card';
-import { MainNavComponent } from './needy/main-nav/main-nav.component';
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SigninComponent } from './pages/pages/signin/signin.component';
 import { FormsModule } from '@angular/forms';
@@ -35,6 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {ToastrModule, ToastrService}from'ngx-toastr';
 import { RequestsComponent } from './needy/requests/requests.component';
 import { FeedbackComponent } from './needy/feedback/feedback.component';
+import { MainComponent } from './needy/main/main.component';
 
 
 
@@ -56,10 +57,11 @@ import { FeedbackComponent } from './needy/feedback/feedback.component';
     
      DonateditemComponent,
     
-     MainNavComponent,
+    
      SigninComponent,
      RequestsComponent,
-     FeedbackComponent ,
+     FeedbackComponent,
+     MainComponent ,
      
    
      

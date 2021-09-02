@@ -5,7 +5,8 @@ import { FeedbackComponent } from './needy/feedback/feedback.component';
 
 
 import { HomeComponent } from './needy/home/home/home.component';
-import { MainNavComponent } from './needy/main-nav/main-nav.component';
+
+import { MainComponent } from './needy/main/main.component';
 import { NeedyComponent } from './needy/needy.component';
 import { RequestsComponent } from './needy/requests/requests.component';
 import { SigninComponent } from './pages/pages/signin/signin.component';
@@ -16,12 +17,12 @@ import { SigninComponent } from './pages/pages/signin/signin.component';
 const routes: Routes = [
 
   {
-    path: "nav/items",
+    path: "main/items",
     component: DonateditemComponent
   },
   
   {
-    path: "nav/home",
+    path: "main/home",
     component: HomeComponent
   },
   
@@ -31,6 +32,10 @@ const routes: Routes = [
     path: 'needy ',
     component: NeedyComponent
     
+  },
+  {
+    path: 'main',
+    component: MainComponent
   },
   
   
@@ -43,19 +48,14 @@ const routes: Routes = [
 
   },
   {
-    path: 'nav/notify',
+    path: 'main/notify',
   component: RequestsComponent
   },
   {
     path: 'feedback',
   component: FeedbackComponent
   },
-{
-  path: 'nav',
-  component: MainNavComponent
-  
 
-},
 
 
 

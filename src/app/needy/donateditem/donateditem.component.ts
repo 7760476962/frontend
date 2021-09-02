@@ -47,7 +47,7 @@ constructor(private donationService: DonationService, private route: Router){
 
  
    back(){
-    this.route.navigate(['/nav']);
+    this.route.navigate(['/main']);
   }
     
   
